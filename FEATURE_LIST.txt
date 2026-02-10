@@ -1,0 +1,79 @@
+FEATURE LIST – Asset Management Software
+
+1. Understanding of Client Requirements
+
+The client requires a software system to manage and track company-owned
+assets such as laptops, monitors, mobile phones, and other office
+equipment.
+
+The primary goal of the system is to clearly identify which asset is
+assigned to which employee at any given time. This helps improve
+accountability, minimize asset loss, and make internal asset tracking
+more organized within the company.
+
+
+2. Creative Freedoms Taken in the Project
+
+Since detailed specifications were not fully defined, the following
+assumptions and design choices were made:
+
+- The product is named “TrackIT – Company Asset Manager”
+- The system is designed as a web-based internal application
+- The initial scope focuses only on asset tracking and assignment
+- The system is kept simple and scalable to allow future feature additions
+- The software is primarily intended for admin or IT department usage
+
+
+3. Assumptions Made About Client Requirements
+
+To design the system effectively, the following assumptions were
+considered:
+
+- Each asset has a unique identifier or serial number
+- Employees are registered in the system before asset assignment
+- An asset can be assigned to only one employee at a time
+- Only authorized users can add, update, or assign assets
+- Internet connectivity is available within the organization
+- The system will be used by a single organization
+
+
+4. Feature List
+
+1. Asset Registration  
+Admins can register new assets by entering details such as asset type,
+serial number, purchase date, and current condition.
+
+2. Employee Management  
+Enables admins to add and manage employee details, including employee
+ID, name, department, and contact information.
+
+3. Asset Assignment  
+Allows assets to be assigned to employees while recording the assignment
+date and ownership status.
+
+4. Asset Return Tracking  
+Provides the option to mark assets as returned and automatically update
+their availability status.
+
+5. Asset Status Dashboard  
+Displays an overview of all assets, showing whether they are available,
+assigned, or under maintenance.
+
+6. Assignment History  
+Maintains a complete history of asset assignments for tracking,
+auditing, and reference purposes.
+
+7. Search and Filter  
+Makes it easy to locate assets using filters such as asset type, serial
+number, employee name, or current status.
+
+
+5. Questions for the Next Client Meeting
+
+- Which types of assets should be tracked in the initial phase?
+- Approximately how many assets and employees will the system handle?
+- Who should have access to the system (admin, manager, employee)?
+- Is role-based access control required?
+- Should asset condition and maintenance history be recorded?
+- Are reports or export options (PDF or Excel) needed?
+- Is mobile or tablet access expected?
